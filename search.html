@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Search</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>LG U+</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">12:36</div>
+    <div class="status-bar__column">
+      <i class="fa-solid fa-user-lock"></i>
+      <span>71%</span>
+      <i class="fa-solid fa-battery-three-quarters"></i>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-playing">
+      <div class="header-playing__column">
+        <div class="header-playing__cover">
+          <img src="https://i.scdn.co/image/ab67616d000048519bde0aee740dae55ef6f8ce5" alt="album-cover" />
+          <div class="pause">
+            <i class="fa-solid fa-pause"></i>
+          </div>
+        </div>
+        <div class="header-playing__text">
+          <h3 class="header-playing__song">Island (queen of diamonds)</h3>
+          <span class="header-playing__singer">Blackskirts</span>
+        </div>
+      </div>
+      <div class="header-playing__column">
+        <a href="#" class="header-playing__link">
+          <i class="fa-solid fa-list fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <h1 class="search-screen__title">Search</h1>
+    <form action="#" class="search-screen">
+      <fieldset>
+        <legend>Search</legend>
+        <input type="text" class="search-screen__input" placeholder="What's you want?" />
+        <button>
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </button>
+        <button>
+          <i class="fa-solid fa-ear-listen fa-lg"></i>
+        </button>
+      </fieldset>
+    </form>
+
+    <div class="border-between">
+      <span>Trend Now</span>
+    </div>
+    <ul>
+      <li>
+        <div class="user-component">
+          <div class="user-component__column">
+            <span class="user-component__search-span">1</span>
+            <span class="user-component__search-span">IVE</span>
+          </div>
+          <div class="user-component__column">
+            <span>-</span>
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="user-component">
+          <div class="user-component__column">
+            <span class="user-component__search-span">2</span>
+            <span class="user-component__search-span">Leellamarz</span>
+          </div>
+          <div class="user-component__column">
+            <span><i class="fa-solid fa-caret-up"></i>2</span>
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="user-component">
+          <div class="user-component__column">
+            <span class="user-component__search-span">3</span>
+            <span class="user-component__search-span">Jannabi</span>
+          </div>
+          <div class="user-component__column">
+            <span>-</span>
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="user-component">
+          <div class="user-component__column">
+            <span class="user-component__search-span">4</span>
+            <span class="user-component__search-span">IU</span>
+          </div>
+          <div class="user-component__column">
+            <span><i class="fa-solid fa-caret-up"></i>1</span>
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="user-component">
+          <div class="user-component__column">
+            <span class="user-component__search-span">5</span>
+            <span class="user-component__search-span">Dynamic Duo</span>
+          </div>
+          <div class="user-component__column">
+            <span><i class="fa-solid fa-caret-down"></i>3</span>
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="border-between">
+      <span>Podcasts</span>
+      <span>
+        More Podcasts
+        <i class="fa-solid fa-chevron-right"></i>
+      </span>
+    </div>
+
+    <div class="user-component">
+      <div class="user-component__column">
+        <div class="user-component__description">
+          <h3 class="user-component__subtitle">Syukaworld</h3>
+          <span>Syuka's friends</span>
+          <span>Finance</span>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <img src="https://i.scdn.co/image/ab67656300005f1f3e9256508c005fb6b3a77377" alt="syukaworkld"
+          class="user-component__img-xl" />
+      </div>
+    </div>
+
+    <div class="user-component">
+      <div class="user-component__column">
+        <div class="user-component__description">
+          <h3 class="user-component__subtitle">Rap House Radio</h3>
+          <span>The Quiett</span>
+          <span>Music</span>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <img src="https://i.scdn.co/image/ab67656300005f1ffc0b18312f404574cc4260b4" alt="raphouse"
+          class="user-component__img-xl" />
+      </div>
+    </div>
+  </main>
+
+  <footer class="home-footer">
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="home.html">
+            <i class="fa-solid fa-house fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="notification.html">
+            <div class="badge"></div>
+            <i class="fa-regular fa-bell fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="search.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="my.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a004fa3db6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

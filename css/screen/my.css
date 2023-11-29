@@ -1,0 +1,26 @@
+.my-border__span {
+  font-size: 12px;
+}
+
+.my-component__cover {
+  position: relative;
+}
+
+.my-component__cover:hover .my-library__play {
+  opacity: 0.8;
+}
+
+.my-library__play {
+  position: absolute;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}

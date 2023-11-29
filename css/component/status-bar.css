@@ -1,0 +1,38 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 6px;
+  box-sizing: border-box;
+  background-color: #2a2727;
+  z-index: 100;
+}
+
+/* status-bar 전체 스타일링, padding을 주고 flex로 한 줄 정렬 */
+
+.status-bar__column {
+  display: flex;
+  width: calc(100% / 3);
+}
+
+.status-bar__column:nth-child(2) {
+  justify-content: center;
+  font-weight: 700;
+}
+
+.status-bar__column:last-child {
+  justify-content: flex-end;
+}
+
+/* 각 column(열)의 스타일링 폭을 /3 해주고 각각 flex를 준 후 가운데를 center 마지막 요소를 flex-end로 둠. (가운데를 정확히 가운데 정렬하고 1/3번째 요소를 양 끝 정렬하는 방법. */
+
+.status-bar__column:first-child .fa-wifi {
+  margin-left: 5px;
+}
+
+.status-bar__column:last-child .fa-user-lock {
+  margin-right: 7px;
+}
+
+/* 아이콘과 text(span) 사이 간격 조정을 margin으로 함. */

@@ -1,0 +1,21 @@
+.pause {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--gray);
+  position: absolute;
+  top: 11px;
+  right: 20px;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.header-playing__cover:hover .pause {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pause:hover {
+  background-color: black;
+}

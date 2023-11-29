@@ -1,0 +1,73 @@
+.user-component {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-component__img-xl {
+  width: 120px;
+  border-radius: 15px;
+}
+
+.user-component__img {
+  width: 80px;
+  border-radius: 15px;
+}
+
+.user-component__title {
+  font-size: 28px;
+  font-weight: var(--bold);
+}
+
+.user-component__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-component__subtitle {
+  font-size: 20px;
+}
+
+.user-component__column .fa-heart {
+  color: var(--gray);
+  transition: color 0.3s ease-in-out;
+}
+
+.user-component__column .fa-heart:hover {
+  color: white;
+}
+
+.user-component__column span {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.user-component__column button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.user-component__column button i {
+  transition: color 0.3s ease-in-out;
+}
+
+.user-component__column button:hover i {
+  color: var(--green);
+}
+
+.user-component .user-component__search-span {
+  font-size: 17px;
+  color: white;
+}
+
+.user-component .user-component__search-span:first-child {
+  color: var(--green);
+}

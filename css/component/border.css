@@ -1,0 +1,17 @@
+.border-between {
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: var(--main-border);
+}
+
+.border-between span {
+  color: var(--gray);
+}
+
+.border-between button {
+  background: transparent;
+  border: none;
+  color: var(--gray);
+}

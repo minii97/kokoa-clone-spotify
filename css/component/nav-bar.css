@@ -1,0 +1,21 @@
+.home-footer {
+  background-color: #272727;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-list {
+  padding: 20px 0;
+  display: flex;
+}
+
+.nav-item {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item a {
+  position: relative;
+}
