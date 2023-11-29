@@ -1,7 +1,7 @@
 # Spotify 앱 HTML/CSS로 구현하기
 
-> 노마드 코더 코코아톡 클론 강의를 참고하여 Spotify App HTML/CSS로 구현하기
-> ([참고강의 : 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners))
+> 노마드 코더 코코아톡 클론 강의를 참고하여 Spotify Web App HTML/CSS로 구현하기
+> ([참고강의 : 코코아톡 클론코딩](https://nomadcoders.co/kokoa-clone/lobby))
 
 ### 🗓️ 제작기간
 
